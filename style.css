@@ -5,27 +5,18 @@ Author URI: https://github.com/theRingleman
 Description: This is the bees knees, the cats meow, the boogers!
 */
 
-* {
-  margin: 0;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background-color: #333;
-  color: #f8f8f8;
-}
-
 html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     margin: 0 0 100px; /* bottom = footer height */
+    background-color: #333;
+    color: #f8f8f8;
 }
-footer {
+
+.footer {
     position: absolute;
     left: 0;
     bottom: 0;

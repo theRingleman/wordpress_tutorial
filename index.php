@@ -8,11 +8,11 @@
 
     <div class="row">
       <div class="col-sm-4">
-        <p>This is my first awesome column</p>
+        <p class="text-center">This is my first awesome column</p>
       </div>
 
       <div class="col-sm-4">
-        <p>And this here is my second awesome column!</p>
+        <p class="text-center">And this here is my second awesome column!</p>
       </div>
 
       <?php get_sidebar(); ?>
