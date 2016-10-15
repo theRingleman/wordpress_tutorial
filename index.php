@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
 
+<div class="wrapper">
   <div class="container">
-    
+
     <h1 class="text-center">Welcome to my practice WordPress theme!</h1>
 
     <div class="row">
@@ -18,6 +19,7 @@
     </div>
 
   </div>
+</div>
 
 
 <?php get_footer(); ?>
