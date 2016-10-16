@@ -12,7 +12,15 @@
       </div>
 
       <div class="col-sm-4">
-        <p class="text-center">And this here is my second awesome column!</p>
+        <?php
+          $args = array('posts_per_page' => 3);
+
+          $post_data = get_posts($args);
+
+          foreach($post_data as $post){
+            echo get_the_title() . "<hr>";
+          }
+         ?>
       </div>
 
       <?php get_sidebar(); ?>
