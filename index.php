@@ -8,7 +8,16 @@
 
     <div class="row">
       <div class="col-sm-4">
-        <p class="text-center">This is my first awesome column</p>
+        <?php
+          $pages = get_pages();
+
+          foreach ( $pages as $page ) {
+          	$option = '<a href="' . get_page_link( $page->ID ) . '">';
+          	$option .= $page->post_title;
+          	$option .= '</a> <hr>';
+          	echo $option;
+          }
+         ?>
       </div>
 
       <div class="col-sm-4">
