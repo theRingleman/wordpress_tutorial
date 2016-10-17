@@ -8,16 +8,7 @@
 
     <div class="row">
       <div class="col-sm-4">
-        <?php
-          $pages = get_pages();
-
-          foreach ( $pages as $page ) {
-          	$option = '<a href="' . get_page_link( $page->ID ) . '">';
-          	$option .= $page->post_title;
-          	$option .= '</a> <hr>';
-          	echo $option;
-          }
-         ?>
+        <?php get_all_pages(); ?>
       </div>
 
       <div class="col-sm-4">
@@ -27,7 +18,8 @@
           $post_data = get_posts($args);
 
           foreach($post_data as $post){
-            echo get_the_title() . "<hr>";
+            $link = get_permalink();
+             echo "<a href='$link'>" . get_the_title() . "</a><hr>";
           }
          ?>
       </div>
