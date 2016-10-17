@@ -1,0 +1,16 @@
+/*
+Theme Name: Complete
+Author: Sam Ringleman
+Author URI: https://github.com/theRingleman
+Version: 1.0.0
+Description: A simple tutorial website for future reference with Wordpress Builds. Includes examples and notes about Advanced Custom Fields, Customizer, WP Loop, Working with Data from MYSQL etc.
+*/
+
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
