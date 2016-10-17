@@ -8795,3 +8795,37 @@ button.close {
     display: none !important;
   }
 }
+/* line 18, sass/style.scss */
+* {
+  margin: 0;
+}
+
+/* line 22, sass/style.scss */
+html {
+  height: 100%;
+}
+
+/* line 26, sass/style.scss */
+body {
+  background-color: #333;
+  color: white;
+  height: 100%;
+}
+
+/* line 32, sass/style.scss */
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px;
+}
+
+/* line 38, sass/style.scss */
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+/* line 43, sass/style.scss */
+.footer, .wrapper:after {
+  height: 100px;
+}

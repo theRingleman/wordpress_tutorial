@@ -14,3 +14,32 @@ Description: A simple tutorial website for future reference with Wordpress Build
 
 // Import Bootstrap for Sass
 @import "bootstrap";
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #333;
+  color: white;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+.footer, .wrapper:after {
+  height: 100px;
+}
