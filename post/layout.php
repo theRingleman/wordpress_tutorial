@@ -7,6 +7,7 @@
           echo "<p>" . the_date() . "</p>";
           echo "<p>" . the_category(", ") . "</p>";
           the_content();
+          comments_template();
          ?>
       </div>
       <?php get_sidebar(); ?>
