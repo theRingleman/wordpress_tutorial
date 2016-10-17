@@ -8813,24 +8813,38 @@ body {
 }
 
 /* line 32, sass/style.scss */
+h1 {
+  margin-top: 0;
+}
+
+/* line 36, sass/style.scss */
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
+  margin-top: 80px;
   margin-bottom: -100px;
 }
 
-/* line 38, sass/style.scss */
+/* line 43, sass/style.scss */
 .wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 43, sass/style.scss */
+/* line 48, sass/style.scss */
 .footer, .wrapper:after {
   height: 100px;
 }
 
-/* line 47, sass/style.scss */
+/* line 52, sass/style.scss */
 .footer {
   padding-top: 45px;
+}
+
+/* line 56, sass/style.scss */
+.sidebar {
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-top: 25px;
 }
