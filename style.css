@@ -8829,3 +8829,8 @@ body {
 .footer, .wrapper:after {
   height: 100px;
 }
+
+/* line 47, sass/style.scss */
+.footer {
+  padding-top: 45px;
+}
