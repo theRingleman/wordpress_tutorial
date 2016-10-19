@@ -14,6 +14,8 @@ Template Name: Search Page
 
           <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           <br>
+          <p>Published on <?php echo get_the_date(); ?></p>
+          <p>Published by <?php the_author(); ?></p>
           <?php the_excerpt(); ?>
           <hr>
 

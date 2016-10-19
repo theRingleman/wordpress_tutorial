@@ -1,5 +1,7 @@
 <?php
 
+  add_theme_support('post-thumbnails');
+
   function get_current_year(){
     $this_year = Date("Y");
     return $this_year;
