@@ -8,9 +8,6 @@
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-        <br>
-        <p>Published on <?php echo get_the_date(); ?></p>
-        <p>Published by <?php the_author(); ?></p>
         <hr>
 
       <?php endwhile; else : ?>

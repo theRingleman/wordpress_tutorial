@@ -6,7 +6,8 @@
           echo "<h1>" . $post->post_title . "</h1>";
           echo "<p>" . the_date() . "</p>";
           echo "<p>" . the_category(", ") . "</p>";
-          the_content();
+          echo "<p>" . the_tags() . "</p>";
+          echo get_the_content();
           comments_template();
          ?>
       </div>

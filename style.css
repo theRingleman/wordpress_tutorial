@@ -8795,29 +8795,39 @@ button.close {
     display: none !important;
   }
 }
-/* line 18, sass/style.scss */
+/* line 22, sass/style.scss */
 * {
   margin: 0;
 }
 
-/* line 22, sass/style.scss */
+/* line 26, sass/style.scss */
 html {
   height: 100%;
 }
 
-/* line 26, sass/style.scss */
+/* line 30, sass/style.scss */
 body {
-  background-color: #333;
-  color: white;
+  background-color: #eee;
+  color: #333;
   height: 100%;
 }
 
-/* line 32, sass/style.scss */
+/* line 36, sass/style.scss */
 h1 {
   margin-top: 0;
 }
 
-/* line 36, sass/style.scss */
+/* line 40, sass/style.scss */
+.col-sm-8, .col-sm-12 {
+  background-color: #fff;
+}
+
+/* line 44, sass/style.scss */
+img {
+  width: 100%;
+}
+
+/* line 50, sass/style.scss */
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
@@ -8825,26 +8835,25 @@ h1 {
   margin-bottom: -100px;
 }
 
-/* line 43, sass/style.scss */
+/* line 57, sass/style.scss */
 .wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 48, sass/style.scss */
+/* line 62, sass/style.scss */
 .footer, .wrapper:after {
   height: 100px;
 }
 
-/* line 52, sass/style.scss */
+/* line 66, sass/style.scss */
 .footer {
   padding-top: 45px;
 }
 
-/* line 56, sass/style.scss */
+/* line 70, sass/style.scss */
 .sidebar {
-  background-color: grey;
-  border: 2px solid black;
-  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
   padding-top: 25px;
 }
