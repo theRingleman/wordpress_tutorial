@@ -2,7 +2,10 @@
 
 
 <div class="wrapper">
-  <div class="container">
+
+  <?php get_template_part("navigation"); ?>
+
+  <div class="container-fluid">
 
     <h1 class="text-center">Welcome to my practice WordPress theme!</h1>
 
