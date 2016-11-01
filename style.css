@@ -8821,58 +8821,97 @@ h1 {
 }
 
 /* line 45, sass/style.scss */
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 50, sass/style.scss */
 .col-sm-8, .col-sm-12 {
   background-color: #fff;
 }
 
-/* line 49, sass/style.scss */
-img {
-  width: 100%;
-}
-
-/* line 55, sass/style.scss */
+/* line 54, sass/style.scss */
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -100px;
 }
 
-/* line 61, sass/style.scss */
+/* line 60, sass/style.scss */
 .wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 66, sass/style.scss */
+/* line 65, sass/style.scss */
 .footer, .wrapper:after {
   height: 100px;
 }
 
-/* line 70, sass/style.scss */
+/* line 69, sass/style.scss */
 .footer {
   padding-top: 45px;
 }
 
-/* line 74, sass/style.scss */
+/* line 73, sass/style.scss */
 .sidebar {
   background-color: #333;
   color: #eee;
   padding-top: 25px;
 }
 
-/* line 80, sass/style.scss */
+/* line 79, sass/style.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
 }
 
-/* line 85, sass/style.scss */
+/* line 84, sass/style.scss */
 .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 90, sass/style.scss */
+/* line 89, sass/style.scss */
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+/* line 93, sass/style.scss */
 .menu-item {
   text-transform: uppercase;
+}
+
+/* line 97, sass/style.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+/* line 101, sass/style.scss */
+.hero {
+  height: 800px;
+  background: url("images/The_Hideaway_Hero_Image.png") center center no-repeat;
+  background-size: cover;
+}
+
+/* line 107, sass/style.scss */
+.hero-logo {
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 12%;
+}
+
+/* line 113, sass/style.scss */
+.hero h1 {
+  text-align: center;
+  font-family: "Herr Von Muellerhoff", cursive;
+  color: white;
+  letter-spacing: 13px;
+  font-size: 100px;
+}
+
+/* line 121, sass/style.scss */
+.hero img {
+  margin: -36px auto 0 auto;
 }
