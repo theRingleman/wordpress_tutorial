@@ -22,6 +22,7 @@ $cursive: 'Herr Von Muellerhoff', cursive;
 $cream: #eee;
 $white: #fff;
 $smoke: #333;
+$gold: #c7a816;
 
 * {
   margin: 0;
@@ -120,4 +121,34 @@ h1 {
 
 .hero img {
   margin: -36px auto 0 auto;
+}
+
+.our-story {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: $gold;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.our-story h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cursive {
+  font-family: $cursive;
+  color: $gold;
+  display: block;
+  font-size: 2.0em;
+  letter-spacing: 13px;
+  text-transform: none;
+  font-weight: normal;
+  margin-bottom: -15px;
+  margin-left: -7px;
 }
