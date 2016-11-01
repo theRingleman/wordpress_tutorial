@@ -8917,12 +8917,6 @@ h1 {
 }
 
 /* line 126, sass/style.scss */
-.our-story {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-/* line 131, sass/style.scss */
 button {
   padding: 10px 20px;
   background-color: #c7a816;
@@ -8931,13 +8925,21 @@ button {
   outline: none;
 }
 
-/* line 139, sass/style.scss */
+/* line 134, sass/style.scss */
+.our-story {
+  background: url("images/The_Hideaway_Exterior.png") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0 60px;
+}
+
+/* line 140, sass/style.scss */
 .our-story h2 {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 4em;
 }
 
-/* line 144, sass/style.scss */
+/* line 146, sass/style.scss */
 .cursive {
   font-family: "Herr Von Muellerhoff", cursive;
   color: #c7a816;

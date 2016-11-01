@@ -123,11 +123,6 @@ h1 {
   margin: -36px auto 0 auto;
 }
 
-.our-story {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
 button {
   padding: 10px 20px;
   background-color: $gold;
@@ -136,9 +131,16 @@ button {
   outline: none;
 }
 
+.our-story {
+  background: url("images/The_Hideaway_Exterior.png") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0 60px;
+}
+
 .our-story h2 {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 4em;
 }
 
 .cursive {
