@@ -2,6 +2,9 @@
   wp_footer();
  ?>
 
+    </div><!-- .wrapper -->
+  </div><!-- .container-fluid -->
+
  <footer class="footer">
    <p class="text-center">&copy; <?php echo get_current_year(); ?> Designed by Sam Ringleman</p>
  </footer>

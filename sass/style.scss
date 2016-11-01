@@ -14,7 +14,11 @@ Description: A simple tutorial website for future reference with Wordpress Build
 
 // Import Bootstrap for Sass
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff');
 
+$sans: 'Open Sans', sans-serif;
+$cursive: 'Herr Von Muellerhoff', cursive;
 $cream: #eee;
 $white: #fff;
 $smoke: #333;
@@ -31,6 +35,7 @@ body {
   background-color: $cream;
   color: $smoke;
   height: 100%;
+  font-family: $sans;
 }
 
 h1 {
@@ -50,7 +55,6 @@ img {
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
-  margin-top: 80px;
   margin-bottom: -100px;
 }
 
@@ -71,4 +75,18 @@ img {
   background-color: $smoke;
   color: $cream;
   padding-top: 25px;
+}
+
+.navbar-default {
+  background-color: rgba(0,0,0,0.0);
+  border: none;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu-item {
+  text-transform: uppercase;
 }
