@@ -1,4 +1,4 @@
-<section class="row menu-section">
+<section class="row menu-section section-padding">
   <h2 class="text-center section-heading"><span class="cursive menu">Dining</span> Menu</h2>
   <h3 class="text-center">All Day Breakfast</h3>
 

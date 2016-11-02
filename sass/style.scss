@@ -144,6 +144,9 @@ button {
 .our-story {
   background: url("images/The_Hideaway_Exterior.png") center center no-repeat;
   background-size: cover;
+}
+
+.section-padding {
   padding: 60px 0 60px;
 }
 
@@ -153,7 +156,7 @@ button {
   font-size: 4em;
 }
 
-.story-heading {
+.smoke-heading {
   color: $smoke;
 }
 
@@ -180,7 +183,6 @@ button {
 }
 
 .menu-section {
-  padding: 60px 0 60px;
   background: url("images/hideaway_dinning_menu_background.png") center center no-repeat;
   background-size: cover;
 }
@@ -206,4 +208,40 @@ dt {
 dd {
   margin-bottom: 20px;
   font-weight: 100;
+}
+
+.events-heading {
+  margin-bottom: 50px;
+}
+
+.cursive-events {
+  margin-bottom: -31px;
+  margin-left: 44px;
+}
+
+.events-pictures {
+  position: relative;
+}
+
+.events-pictures p {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.events-pictures img {
+  width: 100%;
+}
+
+.linebreak {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .events-pictures-main-alignment {
+    margin-left: 13.666667%;
+  }
 }
