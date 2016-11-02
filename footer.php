@@ -8,28 +8,43 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Hideaway Cafe">
       </div>
 
-      <div class="col-sm-2">
-        <p class="footer-heading">Hideaway Cafe</p>
-        <p>home</p>
-        <p>our story</p>
-        <p>menu</p>
-        <p>contact</p>
+      <div id="footer-widget-1">
+
+      	<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('footer-widget-1')) : else : ?>
+
+      	<div class="pre-widget col-sm-2">
+      		<p class="footer-heading"><strong>Widgetized Area</strong></p>
+      		<p>This panel is active and ready for you to add some widgets via the WP Admin</p>
+      	</div>
+
+      	<?php endif; ?>
+
       </div>
 
-      <div class="col-sm-2">
-        <p class="footer-heading">Social Media</p>
-        <p>Facebook</p>
-        <p>Google</p>
-        <p>Twitter</p>
-        <p>Foursquare</p>
+      <div id="footer-widget-2">
+
+        <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('footer-widget-2')) : else : ?>
+
+        <div class="pre-widget col-sm-2">
+          <p class="footer-heading"><strong>Widgetized Area</strong></p>
+          <p>This panel is active and ready for you to add some widgets via the WP Admin</p>
+        </div>
+
+        <?php endif; ?>
+
       </div>
 
-      <div class="col-sm-2">
-        <p class="footer-heading">Find Us</p>
-        <p>(970) 555-5555</p>
-        <p>123 Downtown Dr</p>
-        <p>Loveland CO 80538</p>
-        <p>contact@hideawaycafe.com</p>
+      <div id="footer-widget-3">
+
+        <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('footer-widget-3')) : else : ?>
+
+        <div class="pre-widget col-sm-2">
+          <p class="footer-heading"><strong>Widgetized Area</strong></p>
+          <p>This panel is active and ready for you to add some widgets via the WP Admin</p>
+        </div>
+
+        <?php endif; ?>
+
       </div>
 
     </div>

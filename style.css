@@ -7471,6 +7471,12 @@ h3 {
 
 .menu-item {
   text-transform: uppercase;
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.menu-item a {
+  color: #333;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -7548,7 +7554,7 @@ button {
 
 .menu {
   margin-bottom: -37px;
-  margin-left: 30px;
+  padding: 0;
 }
 
 .thumbnail {

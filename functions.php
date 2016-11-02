@@ -19,16 +19,36 @@
         }
     endif;
 
-    if (function_exists('register_sidebar')) {
+  if (function_exists('register_sidebar')) {
 
   	register_sidebar(array(
-  		'name' => 'Widgetized Area',
-  		'id'   => 'widgetized-area',
-  		'description'   => 'This is a widgetized area.',
-  		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+  		'name' => 'Footer Widget 1',
+  		'id'   => 'footer-widget-1',
+  		'description'   => 'This is a widget for the footer.',
+  		'before_widget' => '<div class="col-sm-2">',
   		'after_widget'  => '</div>',
-  		'before_title'  => '<h4>',
-  		'after_title'   => '</h4>'
+  		'before_title'  => '<p class="footer-heading">',
+  		'after_title'   => '</p>'
+  	));
+
+    register_sidebar(array(
+  		'name' => 'Footer Widget 2',
+  		'id'   => 'footer-widget-2',
+  		'description'   => 'Footer widget 2.',
+  		'before_widget' => '<div class="col-sm-2">',
+  		'after_widget'  => '</div>',
+  		'before_title'  => '<p class="footer-heading">',
+  		'after_title'   => '</p>'
+  	));
+
+    register_sidebar(array(
+  		'name' => 'Footer Widget 3',
+  		'id'   => 'footer-widget-3',
+  		'description'   => 'Footer widget 3.',
+  		'before_widget' => '<div class="col-sm-2">',
+  		'after_widget'  => '</div>',
+  		'before_title'  => '<p class="footer-heading">',
+  		'after_title'   => '</p>'
   	));
 
   }
