@@ -58,10 +58,6 @@ h3 {
   margin: 0 auto;
 }
 
-.col-sm-8, .col-sm-12 {
-  background-color: $white;
-}
-
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
@@ -238,6 +234,28 @@ dd {
 
 .linebreak {
   display: block;
+}
+
+.barista-section {
+  background: url("images/The_Hideaway_Barista_Training.png") center center no-repeat;
+  background-size: cover;
+}
+
+.cursive-barista {
+  margin-bottom: -30px;
+  margin-left: 0px;
+}
+
+.barista-heading {
+  margin: 50px;
+}
+
+.barista-training-text {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
