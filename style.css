@@ -8861,12 +8861,17 @@ h3 {
 }
 
 /* line 80, sass/style.scss */
+.content * {
+  color: #333;
+}
+
+/* line 84, sass/style.scss */
 .center-block {
   display: block;
   margin: 0 auto;
 }
 
-/* line 85, sass/style.scss */
+/* line 89, sass/style.scss */
 .page-title {
   font-family: "Herr Von Muellerhoff", cursive;
   color: #c7a816;
@@ -8874,89 +8879,95 @@ h3 {
   font-size: 100px;
 }
 
-/* line 92, sass/style.scss */
+/* line 96, sass/style.scss */
+.post-title {
+  color: #333;
+  font-size: 30px;
+}
+
+/* line 101, sass/style.scss */
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -100px;
 }
 
-/* line 98, sass/style.scss */
+/* line 107, sass/style.scss */
 .wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 103, sass/style.scss */
+/* line 112, sass/style.scss */
 .footer, .wrapper:after {
   height: 100px;
 }
 
-/* line 107, sass/style.scss */
+/* line 116, sass/style.scss */
 .footer {
   padding-top: 45px;
 }
 
-/* line 111, sass/style.scss */
+/* line 120, sass/style.scss */
 .sidebar {
   background-color: #333;
   color: #f1f1f1;
   padding-top: 25px;
 }
 
-/* line 117, sass/style.scss */
+/* line 126, sass/style.scss */
 .navbar-default .navbar-nav > .active > a {
   background-color: transparent;
   color: #c7a816;
 }
 
-/* line 122, sass/style.scss */
+/* line 131, sass/style.scss */
 .primary-navigation {
   background-color: black;
 }
 
-/* line 126, sass/style.scss */
+/* line 135, sass/style.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
 }
 
-/* line 131, sass/style.scss */
+/* line 140, sass/style.scss */
 .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 136, sass/style.scss */
+/* line 145, sass/style.scss */
 .navbar-default .navbar-brand {
   color: white;
 }
 
-/* line 140, sass/style.scss */
+/* line 149, sass/style.scss */
 .menu-item {
   text-transform: uppercase;
 }
 
-/* line 144, sass/style.scss */
+/* line 153, sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
 
-/* line 148, sass/style.scss */
+/* line 157, sass/style.scss */
 .hero {
   height: 800px;
   background: url("images/The_Hideaway_Hero_Image.png") center center no-repeat;
   background-size: cover;
 }
 
-/* line 154, sass/style.scss */
+/* line 163, sass/style.scss */
 .hero-logo {
   margin: 0 auto;
   width: 30%;
   padding-top: 12%;
 }
 
-/* line 160, sass/style.scss */
+/* line 169, sass/style.scss */
 .hero h1 {
   text-align: center;
   font-family: "Herr Von Muellerhoff", cursive;
@@ -8965,12 +8976,12 @@ h3 {
   font-size: 100px;
 }
 
-/* line 168, sass/style.scss */
+/* line 177, sass/style.scss */
 .hero img {
   margin: -36px auto 0 auto;
 }
 
-/* line 172, sass/style.scss */
+/* line 181, sass/style.scss */
 button {
   padding: 10px 20px;
   background-color: #c7a816;
@@ -8979,30 +8990,37 @@ button {
   outline: none;
 }
 
-/* line 180, sass/style.scss */
+/* line 189, sass/style.scss */
 .our-story {
   background: url("images/The_Hideaway_Exterior.png") center center no-repeat;
   background-size: cover;
 }
 
-/* line 185, sass/style.scss */
+/* line 194, sass/style.scss */
 .section-padding {
-  padding: 60px 0 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-/* line 189, sass/style.scss */
+/* line 199, sass/style.scss */
+.padding-sides {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 204, sass/style.scss */
 .section-heading {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 4em;
 }
 
-/* line 195, sass/style.scss */
+/* line 210, sass/style.scss */
 .smoke-heading {
   color: #333;
 }
 
-/* line 199, sass/style.scss */
+/* line 214, sass/style.scss */
 .cursive {
   font-family: "Herr Von Muellerhoff", cursive;
   color: #c7a816;
@@ -9015,36 +9033,36 @@ button {
   margin-left: -7px;
 }
 
-/* line 211, sass/style.scss */
+/* line 226, sass/style.scss */
 .menu {
   margin-bottom: -37px;
   margin-left: 30px;
 }
 
-/* line 216, sass/style.scss */
+/* line 231, sass/style.scss */
 .thumbnail {
   border: 1px solid #c7a816;
   background: #c7a816;
 }
 
-/* line 221, sass/style.scss */
+/* line 236, sass/style.scss */
 .menu-section {
   background: url("images/hideaway_dinning_menu_background.png") center center no-repeat;
   background-size: cover;
 }
 
-/* line 226, sass/style.scss */
+/* line 241, sass/style.scss */
 .menu-price {
   float: right;
   color: white;
 }
 
-/* line 231, sass/style.scss */
+/* line 246, sass/style.scss */
 .menu-section h3 {
   margin-bottom: 60px;
 }
 
-/* line 235, sass/style.scss */
+/* line 250, sass/style.scss */
 dt {
   text-transform: uppercase;
   color: #c7a816;
@@ -9054,29 +9072,29 @@ dt {
   margin-bottom: 20px;
 }
 
-/* line 244, sass/style.scss */
+/* line 259, sass/style.scss */
 dd {
   margin-bottom: 20px;
   font-weight: 100;
 }
 
-/* line 249, sass/style.scss */
+/* line 264, sass/style.scss */
 .events-heading {
   margin-bottom: 50px;
 }
 
-/* line 253, sass/style.scss */
+/* line 268, sass/style.scss */
 .cursive-events {
   margin-bottom: -31px;
   margin-left: 44px;
 }
 
-/* line 258, sass/style.scss */
+/* line 273, sass/style.scss */
 .events-pictures {
   position: relative;
 }
 
-/* line 262, sass/style.scss */
+/* line 277, sass/style.scss */
 .events-pictures p {
   position: absolute;
   bottom: 0;
@@ -9086,34 +9104,34 @@ dd {
   font-weight: 100;
 }
 
-/* line 271, sass/style.scss */
+/* line 286, sass/style.scss */
 .events-pictures img {
   width: 100%;
 }
 
-/* line 275, sass/style.scss */
+/* line 290, sass/style.scss */
 .linebreak {
   display: block;
 }
 
-/* line 279, sass/style.scss */
+/* line 294, sass/style.scss */
 .barista-section {
   background: url("images/The_Hideaway_Barista_Training.png") center center no-repeat;
   background-size: cover;
 }
 
-/* line 284, sass/style.scss */
+/* line 299, sass/style.scss */
 .cursive-barista {
   margin-bottom: -30px;
   margin-left: 0px;
 }
 
-/* line 289, sass/style.scss */
+/* line 304, sass/style.scss */
 .barista-heading {
   margin: 50px;
 }
 
-/* line 293, sass/style.scss */
+/* line 308, sass/style.scss */
 .barista-training-text {
   color: white;
   text-align: center;
@@ -9122,38 +9140,38 @@ dd {
   margin-bottom: 50px;
 }
 
-/* line 261, sass/style.scss */
+/* line 316, sass/style.scss */
 ::-webkit-input-placeholder {
   color: #c7a816;
   text-align: center;
 }
 
-/* line 266, sass/style.scss */
+/* line 321, sass/style.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: #c7a816;
   text-align: center;
 }
 
-/* line 271, sass/style.scss */
+/* line 326, sass/style.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #c7a816;
   text-align: center;
 }
 
-/* line 276, sass/style.scss */
+/* line 331, sass/style.scss */
 :-ms-input-placeholder {
   color: #c7a816;
   text-align: center;
 }
 
-/* line 281, sass/style.scss */
+/* line 336, sass/style.scss */
 .barista-form {
   margin-bottom: 50px;
 }
 
-/* line 285, sass/style.scss */
+/* line 340, sass/style.scss */
 input {
   background-color: transparent;
   border: 1px solid #c7a816;
@@ -9161,13 +9179,13 @@ input {
   border-radius: 10px;
 }
 
-/* line 292, sass/style.scss */
+/* line 347, sass/style.scss */
 input[type="submit"] {
   width: 100%;
   background-color: #c7a816;
 }
 
-/* line 297, sass/style.scss */
+/* line 352, sass/style.scss */
 .training-notice {
   color: white;
   font-style: italic;
@@ -9175,6 +9193,7 @@ input[type="submit"] {
 }
 
 @media (min-width: 768px) {
+  /* line 359, sass/style.scss */
   .events-pictures-main-alignment {
     margin-left: 13.666667%;
   }
