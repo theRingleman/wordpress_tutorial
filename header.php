@@ -10,5 +10,3 @@
   <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url') ?>">
 </head>
 <body>
-  <div class="container-fluid">
-  <div class="wrapper">
