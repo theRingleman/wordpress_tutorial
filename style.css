@@ -8810,99 +8810,111 @@ html {
 /* line 35, sass/style.scss */
 body {
   background-color: #eee;
-  color: #333;
+  color: white;
   height: 100%;
   font-family: "Open Sans", sans-serif;
 }
 
 /* line 42, sass/style.scss */
+p {
+  color: #333;
+}
+
+/* line 46, sass/style.scss */
 h1 {
   margin-top: 0;
 }
 
-/* line 46, sass/style.scss */
+/* line 50, sass/style.scss */
+h3 {
+  color: #c7a816;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 56, sass/style.scss */
 .center-block {
   display: block;
   margin: 0 auto;
 }
 
-/* line 51, sass/style.scss */
+/* line 61, sass/style.scss */
 .col-sm-8, .col-sm-12 {
   background-color: #fff;
 }
 
-/* line 55, sass/style.scss */
+/* line 65, sass/style.scss */
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -100px;
 }
 
-/* line 61, sass/style.scss */
+/* line 71, sass/style.scss */
 .wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 66, sass/style.scss */
+/* line 76, sass/style.scss */
 .footer, .wrapper:after {
   height: 100px;
 }
 
-/* line 70, sass/style.scss */
+/* line 80, sass/style.scss */
 .footer {
   padding-top: 45px;
 }
 
-/* line 74, sass/style.scss */
+/* line 84, sass/style.scss */
 .sidebar {
   background-color: #333;
   color: #eee;
   padding-top: 25px;
 }
 
-/* line 80, sass/style.scss */
+/* line 90, sass/style.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
 }
 
-/* line 85, sass/style.scss */
+/* line 95, sass/style.scss */
 .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 90, sass/style.scss */
+/* line 100, sass/style.scss */
 .navbar-default .navbar-brand {
   color: white;
 }
 
-/* line 94, sass/style.scss */
+/* line 104, sass/style.scss */
 .menu-item {
   text-transform: uppercase;
 }
 
-/* line 98, sass/style.scss */
+/* line 108, sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
 
-/* line 102, sass/style.scss */
+/* line 112, sass/style.scss */
 .hero {
   height: 800px;
   background: url("images/The_Hideaway_Hero_Image.png") center center no-repeat;
   background-size: cover;
 }
 
-/* line 108, sass/style.scss */
+/* line 118, sass/style.scss */
 .hero-logo {
   margin: 0 auto;
   width: 30%;
   padding-top: 12%;
 }
 
-/* line 114, sass/style.scss */
+/* line 124, sass/style.scss */
 .hero h1 {
   text-align: center;
   font-family: "Herr Von Muellerhoff", cursive;
@@ -8911,12 +8923,12 @@ h1 {
   font-size: 100px;
 }
 
-/* line 122, sass/style.scss */
+/* line 132, sass/style.scss */
 .hero img {
   margin: -36px auto 0 auto;
 }
 
-/* line 126, sass/style.scss */
+/* line 136, sass/style.scss */
 button {
   padding: 10px 20px;
   background-color: #c7a816;
@@ -8925,21 +8937,26 @@ button {
   outline: none;
 }
 
-/* line 134, sass/style.scss */
+/* line 144, sass/style.scss */
 .our-story {
   background: url("images/The_Hideaway_Exterior.png") center center no-repeat;
   background-size: cover;
   padding: 60px 0 60px;
 }
 
-/* line 140, sass/style.scss */
-.our-story h2 {
+/* line 150, sass/style.scss */
+.section-heading {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 4em;
 }
 
-/* line 146, sass/style.scss */
+/* line 156, sass/style.scss */
+.story-heading {
+  color: #333;
+}
+
+/* line 160, sass/style.scss */
 .cursive {
   font-family: "Herr Von Muellerhoff", cursive;
   color: #c7a816;
@@ -8952,8 +8969,26 @@ button {
   margin-left: -7px;
 }
 
-/* line 158, sass/style.scss */
+/* line 172, sass/style.scss */
+.menu {
+  margin-bottom: -37px;
+  margin-left: 30px;
+}
+
+/* line 177, sass/style.scss */
 .thumbnail {
   border: 1px solid #c7a816;
   background: #c7a816;
+}
+
+/* line 182, sass/style.scss */
+.menu-section {
+  padding: 60px 0 60px;
+  background: url("images/hideaway_dinning_menu_background.png") center center no-repeat;
+  background-size: cover;
+}
+
+/* line 188, sass/style.scss */
+.menu-price {
+  float: right;
 }
