@@ -77,6 +77,10 @@ h3 {
   background-color: $white;
 }
 
+.content * {
+  color: $smoke;
+}
+
 .center-block {
   display: block;
   margin: 0 auto;
@@ -87,6 +91,11 @@ h3 {
   color: $gold;
   letter-spacing: 13px;
   font-size: 100px;
+}
+
+.post-title {
+  color: $smoke;
+  font-size: 30px;
 }
 
 .wrapper {
@@ -181,7 +190,13 @@ button {
 }
 
 .section-padding {
-  padding: 60px 0 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.padding-sides {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .section-heading {
