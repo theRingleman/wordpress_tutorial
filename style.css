@@ -8951,3 +8951,9 @@ button {
   margin-bottom: -15px;
   margin-left: -7px;
 }
+
+/* line 158, sass/style.scss */
+.thumbnail {
+  border: 1px solid #c7a816;
+  background: #c7a816;
+}
