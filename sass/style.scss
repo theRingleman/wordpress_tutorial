@@ -258,6 +258,48 @@ dd {
   margin-bottom: 50px;
 }
 
+::-webkit-input-placeholder {
+  color: $gold;
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: $gold;
+  text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: $gold;
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  color: $gold;
+  text-align: center;
+}
+
+.barista-form {
+  margin-bottom: 50px;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0.0);
+  border: 1px solid $gold;
+  padding: 17px;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: $gold;
+}
+
+.training-notice {
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+}
+
 @media (min-width: 768px) {
   .events-pictures-main-alignment {
     margin-left: 13.666667%;
