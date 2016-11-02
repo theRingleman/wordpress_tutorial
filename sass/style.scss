@@ -101,7 +101,7 @@ h3 {
 .wrapper {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -100px;
+  margin-bottom: 0px;
 }
 
 .wrapper:after {
@@ -113,6 +113,11 @@ h3 {
   background: url("images/The_Hideaway_Footer.png") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
+}
+
+.footer-heading {
+  color: $gold;
+  text-transform: uppercase;
 }
 
 .sidebar {
