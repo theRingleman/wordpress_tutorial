@@ -9122,8 +9122,59 @@ dd {
   margin-bottom: 50px;
 }
 
+/* line 261, sass/style.scss */
+::-webkit-input-placeholder {
+  color: #c7a816;
+  text-align: center;
+}
+
+/* line 266, sass/style.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #c7a816;
+  text-align: center;
+}
+
+/* line 271, sass/style.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c7a816;
+  text-align: center;
+}
+
+/* line 276, sass/style.scss */
+:-ms-input-placeholder {
+  color: #c7a816;
+  text-align: center;
+}
+
+/* line 281, sass/style.scss */
+.barista-form {
+  margin-bottom: 50px;
+}
+
+/* line 285, sass/style.scss */
+input {
+  background-color: transparent;
+  border: 1px solid #c7a816;
+  padding: 17px;
+  border-radius: 10px;
+}
+
+/* line 292, sass/style.scss */
+input[type="submit"] {
+  width: 100%;
+  background-color: #c7a816;
+}
+
+/* line 297, sass/style.scss */
+.training-notice {
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+}
+
 @media (min-width: 768px) {
-  /* line 302, sass/style.scss */
   .events-pictures-main-alignment {
     margin-left: 13.666667%;
   }
