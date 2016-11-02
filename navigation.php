@@ -1,4 +1,8 @@
-<div class="primary-navigation">
+<?php if (is_home()) {
+  echo '<div class="navigation">';
+} else {
+  echo '<div class="primary-navigation">';
+} ?>
   <nav class="container navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

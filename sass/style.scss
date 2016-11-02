@@ -100,12 +100,10 @@ h3 {
   display: block;
 }
 
-.footer, .wrapper:after {
-  height: 100px;
-}
-
 .footer {
-  padding-top: 45px;
+  background: url("images/The_Hideaway_Footer.png") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
 }
 
 .sidebar {
