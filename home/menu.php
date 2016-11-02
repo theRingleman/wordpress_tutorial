@@ -18,7 +18,7 @@
     </dl>
   </div>
 
-  <div class="col-sm-4 col-sm-offset-1">
+  <div class="col-sm-4">
     <dl>
       <dt>Bacon, Eggs &amp; Toast<span class="menu-price">$10.00</span></dt>
       <dd>Smoked bacon and freerange eggs, scrambled or poached, with roasted tomato, served with toasted ciabatta.</dd>
