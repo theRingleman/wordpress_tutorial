@@ -1,3 +1,4 @@
+<?php get_template_part('navigation'); ?>
 <div class="wrapper">
   <div class="container">
     <div class="row">

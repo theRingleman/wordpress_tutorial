@@ -19,7 +19,7 @@ Description: A simple tutorial website for future reference with Wordpress Build
 
 $sans: 'Open Sans', sans-serif;
 $cursive: 'Herr Von Muellerhoff', cursive;
-$cream: #eee;
+$cream: #f1f1f1;
 $white: #fff;
 $smoke: #333;
 $gold: #c7a816;
@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  background-color: $cream;
+  background: url('images/pattern_cross-scratches.png');
   color: white;
   height: 100%;
   font-family: $sans;
@@ -41,6 +41,26 @@ body {
 
 p {
   color: $smoke;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.fancy-divider {
+    height: 30px;
+    border-style: solid;
+    border-color: $smoke;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.fancy-divider:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: $smoke;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
 
 h1 {
@@ -53,9 +73,20 @@ h3 {
   font-weight: bold;
 }
 
+.content {
+  background-color: $white;
+}
+
 .center-block {
   display: block;
   margin: 0 auto;
+}
+
+.page-title {
+  font-family: $cursive;
+  color: $gold;
+  letter-spacing: 13px;
+  font-size: 100px;
 }
 
 .wrapper {
@@ -81,6 +112,15 @@ h3 {
   background-color: $smoke;
   color: $cream;
   padding-top: 25px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: $gold;
+}
+
+.primary-navigation {
+  background-color: black;
 }
 
 .navbar-default {
