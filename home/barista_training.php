@@ -1,8 +1,17 @@
+<?php
+  // Advanced Custom Fields
+
+  $barista_gold_title = get_field("barista_gold_title");
+  $barista_white_title = get_field("barista_white_title");
+  $barista_description = get_field("barista_description");
+  $barista_disclaimer = get_field("barista_disclaimer");
+?>
+
 <section class="row barista-section section-padding">
-  <h2 class="section-heading text-center barista-heading"><span class="cursive cursive-barista">Barista</span> Training</h2>
+  <h2 class="section-heading text-center barista-heading"><span class="cursive cursive-barista"><?php echo $barista_gold_title; ?></span> <?php echo $barista_white_title; ?></h2>
 
   <div class="col-sm-8 col-sm-offset-2">
-    <p class="barista-training-text">Becoming a barista takes a lot of time and effort but will effectively make you a coffee making powerhoue. If that is something you are interested in fill out the form below.</p>
+    <p class="barista-training-text"><?php echo $barista_description; ?></p>
   </div>
 
   <div class="col-sm-8 col-sm-offset-2 barista-form">
@@ -23,6 +32,6 @@
   </div>
 
   <div class="col-sm-8 col-sm-offset-2">
-    <p class="training-notice">* The date and time of the barista training program offered by the Hideaway are subject to change without notice.  Admission into the program is strictly at our discretion.  Any cancellation of your booking within 7 days of your program start will incur a 20% penalty.  Deposit of 10% required upon confirmation of program booking.</p>
+    <p class="training-notice"><?php echo $barista_disclaimer; ?></p>
   </div>
 </section>

@@ -1,11 +1,19 @@
 <?php
   wp_footer();
+
+  // Advanced Custom Fields
+
+  $footer_logo = get_field("footer_logo");
  ?>
 
   <footer class="footer container-fluid">
     <div class="row">
       <div class="col-sm-3 col-sm-offset-2">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Hideaway Cafe">
+        <?php if(!empty($footer_logo)) : ?>
+          <img src="<?php echo $footer_logo['url']; ?>" alt="<?php echo $footer_logo['alt']; ?>">
+        <?php else : ?>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Hideaway Cafe">
+        <?php endif ?>
       </div>
 
       <div id="footer-widget-1">
