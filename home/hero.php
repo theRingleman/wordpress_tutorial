@@ -12,6 +12,8 @@
     <h1><?php echo $hero_text ?></h1>
     <?php if(!empty($hero_logo)) : ?>
       <img src="<?php echo $hero_logo['url']; ?>" alt="<?php echo $hero_logo['alt']; ?>" class="center-block">
+    <?php else : ?>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-white.png" alt="" class="center-block">
     <?php endif ?>
   </div>
 </section>

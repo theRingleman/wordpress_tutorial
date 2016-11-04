@@ -1,13 +1,26 @@
+<?php
+  // Advanced Custom Fields
+
+  $story_gold_title = get_field("story_gold_title");
+  $story_black_title = get_field("story_black_title");
+  $story_description = get_field("story_description");
+  $story_image = get_field("story_image");
+?>
+
 <section class="our-story row section-padding">
     <div class="col-sm-4 col-sm-offset-2">
-      <h2 class="section-heading smoke-heading"><span class="cursive">Learn</span> our story</h2>
-      <p>The history of The Hideaway cafe is a long and intriguing one.  First opened in 1988 by itës founder Jeff Yeh, The Hideaway cafe prides itself in providing quality food and service.  One of the proudest achievements of The Hideaway coffee and cafe was winning the gold medal for the 2016 annual coffe conferences.  With a wide variety of food and drinks, The Hideaway is sure to sate anyoneës hunger.  Vegetarian and gluten free options are available.</p>
+      <h2 class="section-heading smoke-heading"><span class="cursive"><?php echo $story_gold_title; ?></span> <?php echo $story_black_title; ?></h2>
+      <p><?php echo $story_description; ?></p>
       <button>Learn More</button>
     </div>
 
     <div class="col-sm-4 col-sm offset 1">
       <div class="thumbnail">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hideaway_snacks.png" alt="cupcakes">
+        <?php if(!empty($story_image)) : ?>
+          <img src="<?php echo $story_image['url']; ?>" alt="<?php echo $story_image['alt']; ?>">
+        <?php else : ?>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hideaway_snacks.png" alt="cupcakes">
+        <?php endif ?>
       </div>
     </div>
 </section>
