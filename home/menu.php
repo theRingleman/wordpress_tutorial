@@ -1,36 +1,76 @@
+<?php
+  // Advanced Custom Fields
+
+  $menu_gold_title = get_field("menu_gold_title");
+  $menu_white_title = get_field("menu_white_title");
+  $menu_sub_title = get_field("menu_sub_title");
+
+  $menu_item_title_1 = get_field("menu_item_title_1");
+  $menu_item_price_1 = get_field("menu_item_price_1");
+  $menu_item_description_1 = get_field("menu_item_description_1");
+
+  $menu_item_title_2 = get_field("menu_item_title_2");
+  $menu_item_price_2 = get_field("menu_item_price_2");
+  $menu_item_description_2 = get_field("menu_item_description_2");
+
+  $menu_item_title_3 = get_field("menu_item_title_3");
+  $menu_item_price_3 = get_field("menu_item_price_3");
+  $menu_item_description_3 = get_field("menu_item_description_3");
+
+  $menu_item_title_4 = get_field("menu_item_title_4");
+  $menu_item_price_4 = get_field("menu_item_price_4");
+  $menu_item_description_4 = get_field("menu_item_description_4");
+
+  $menu_item_title_5 = get_field("menu_item_title_5");
+  $menu_item_price_5 = get_field("menu_item_price_5");
+  $menu_item_description_5 = get_field("menu_item_description_5");
+
+  $menu_item_title_6 = get_field("menu_item_title_6");
+  $menu_item_price_6 = get_field("menu_item_price_6");
+  $menu_item_description_6 = get_field("menu_item_description_6");
+
+  $menu_item_title_7 = get_field("menu_item_title_7");
+  $menu_item_price_7 = get_field("menu_item_price_7");
+  $menu_item_description_7 = get_field("menu_item_description_7");
+
+  $menu_item_title_8 = get_field("menu_item_title_8");
+  $menu_item_price_8 = get_field("menu_item_price_8");
+  $menu_item_description_8 = get_field("menu_item_description_8");
+?>
+
 <section class="row menu-section section-padding">
-  <h2 class="text-center section-heading"><span class="cursive menu">Dining</span> Menu</h2>
-  <h3 class="text-center">All Day Breakfast</h3>
+  <h2 class="text-center section-heading"><span class="cursive menu"><?php echo $menu_gold_title; ?></span> <?php echo $menu_white_title; ?></h2>
+  <h3 class="text-center"><?php echo $menu_sub_title; ?></h3>
 
   <div class="col-sm-4 col-sm-offset-2">
     <dl>
-      <dt>The Hideaway Breakfast <span class="menu-price">$21.00</span></dt>
-      <dd>Tender lean steak, smoked bacon, sausages, golden hash brown, freerange eggs scrambled or poached, roasted tomato and sauteed mushrooms. Served with Toast</dd>
+      <dt><?php echo $menu_item_title_1; ?> <span class="menu-price"><?php echo $menu_item_price_1; ?></span></dt>
+      <dd><?php echo $menu_item_description_1; ?></dd>
 
-      <dt>Hideaway Pancake Stack<span class="menu-price">$14.50</span></dt>
-      <dd>Fluffy pancakes drizzled in maple syrup, served with vanilla or chocolate icecream and cream on top.</dd>
+      <dt><?php echo $menu_item_title_2; ?> <span class="menu-price"><?php echo $menu_item_price_2; ?></span></dt>
+      <dd><?php echo $menu_item_description_2; ?></dd>
 
-      <dt>Gourmet Burger<span class="menu-price">$20.00</span></dt>
-      <dd>Prime Angus beef pattie, lettuce, tomato, red onian, cheddar and freshly made aioli.  Served with cajun chips and salad.</dd>
+      <dt><?php echo $menu_item_title_3; ?> <span class="menu-price"><?php echo $menu_item_price_3; ?></span></dt>
+      <dd><?php echo $menu_item_description_3; ?></dd>
 
-      <dt>Chicken Schnitzel &amp; Chips<span class="menu-price">$12.00</span></dt>
-      <dd>Succulent chicken coated in breadcrumbs, cooked until golden.  Served with sliced avocado, tomato, lettuce, chips and fresh aioli.</dd>
+      <dt><?php echo $menu_item_title_4; ?> <span class="menu-price"><?php echo $menu_item_price_4; ?></span></dt>
+      <dd><?php echo $menu_item_description_4; ?></dd>
     </dl>
   </div>
 
   <div class="col-sm-4">
     <dl>
-      <dt>Bacon, Eggs &amp; Toast<span class="menu-price">$10.00</span></dt>
-      <dd>Smoked bacon and freerange eggs, scrambled or poached, with roasted tomato, served with toasted ciabatta.</dd>
+      <dt><?php echo $menu_item_title_5; ?> <span class="menu-price"><?php echo $menu_item_price_5; ?></span></dt>
+      <dd><?php echo $menu_item_description_5; ?></dd>
 
-      <dt>Eggs benedict<span class="menu-price">$8.50</span></dt>
-      <dd>Fresh freerange eggs served on toasted ciabatta topped with rich hollandaise sauce.</dd>
+      <dt><?php echo $menu_item_title_6; ?> <span class="menu-price"><?php echo $menu_item_price_6; ?></span></dt>
+      <dd><?php echo $menu_item_description_6; ?></dd>
 
-      <dt>Potato wedges<span class="menu-price">$3.50</span></dt>
-      <dd>Crispy potato wedges, fried until golden, seasoned with premium herbs and spices.  Served with fresh aioli adn salad.</dd>
+      <dt><?php echo $menu_item_title_7; ?> <span class="menu-price"><?php echo $menu_item_price_7; ?></span></dt>
+      <dd><?php echo $menu_item_description_7; ?></dd>
 
-      <dt>Hideaway Fish &amp; Chips<span class="menu-price">$26.50</span></dt>
-      <dd>Fresh hoki fillets encased in a light, crunchy beer batter.  Served with your choice of chips or wedges, salad and a zesty tartare sauce.</dd>
+      <dt><?php echo $menu_item_title_8; ?> <span class="menu-price"><?php echo $menu_item_price_8; ?></span></dt>
+      <dd><?php echo $menu_item_description_8; ?></dd>
     </dl>
   </div>
 </section>
