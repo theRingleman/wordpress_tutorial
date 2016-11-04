@@ -1,4 +1,4 @@
-<?php if (is_home()) {
+<?php if (is_front_page()) {
   echo '<div class="navigation">';
 } else {
   echo '<div class="primary-navigation">';
