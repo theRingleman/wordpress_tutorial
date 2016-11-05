@@ -185,6 +185,7 @@ h3 {
 
 .hero img {
   margin: -36px auto 0 auto;
+  width: 100%;
 }
 
 button {
@@ -367,5 +368,17 @@ input[type="submit"] {
 @media (min-width: 768px) {
   .events-pictures-main-alignment {
     margin-left: 13.666667%;
+  }
+}
+
+@media (max-width: 1389px) {
+  .hero h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1093px) {
+  .hero h1 {
+    font-size: 50px;
   }
 }
