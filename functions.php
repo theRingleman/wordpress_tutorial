@@ -25,7 +25,7 @@
   		'name' => 'Footer Widget 1',
   		'id'   => 'footer-widget-1',
   		'description'   => 'This is a widget for the footer.',
-  		'before_widget' => '<div class="col-sm-2">',
+  		'before_widget' => '<div class="col-md-2">',
   		'after_widget'  => '</div>',
   		'before_title'  => '<p class="footer-heading">',
   		'after_title'   => '</p>'
@@ -35,7 +35,7 @@
   		'name' => 'Footer Widget 2',
   		'id'   => 'footer-widget-2',
   		'description'   => 'Footer widget 2.',
-  		'before_widget' => '<div class="col-sm-2">',
+  		'before_widget' => '<div class="col-md-2">',
   		'after_widget'  => '</div>',
   		'before_title'  => '<p class="footer-heading">',
   		'after_title'   => '</p>'
@@ -45,7 +45,7 @@
   		'name' => 'Footer Widget 3',
   		'id'   => 'footer-widget-3',
   		'description'   => 'Footer widget 3.',
-  		'before_widget' => '<div class="col-sm-2">',
+  		'before_widget' => '<div class="col-md-2">',
   		'after_widget'  => '</div>',
   		'before_title'  => '<p class="footer-heading">',
   		'after_title'   => '</p>'

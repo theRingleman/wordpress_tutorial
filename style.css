@@ -7440,6 +7440,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.menu-top_menu-container {
+  padding-bottom: 35px;
+}
+
 .sidebar {
   background-color: #333;
   color: #f1f1f1;
@@ -7514,6 +7518,7 @@ button {
   color: white;
   border: none;
   outline: none;
+  margin-bottom: 15px;
 }
 
 .our-story {
@@ -7615,6 +7620,7 @@ dd {
 
 .events-pictures img {
   width: 100%;
+  margin: 10px 0;
 }
 
 .linebreak {
