@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <?php /* Primary navigation */
           wp_nav_menu( array(
-        'menu'       => 'primary',
+        'menu'       => 'top',
         'depth'      => 2,
         'container'  => false,
         'menu_class' => 'nav navbar-nav navbar-right',

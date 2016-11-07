@@ -7441,7 +7441,7 @@ h3 {
 }
 
 .menu {
-  margin-left: -40px;
+  margin-left: -40px !important;
 }
 
 .sidebar {
